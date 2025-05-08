@@ -2,6 +2,7 @@ package net.kadosa.testmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.kadosa.testmod.item.ModItemGroups;
 import net.kadosa.testmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,6 +13,7 @@ public class Kadosa_Test_Mod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 	}
 }

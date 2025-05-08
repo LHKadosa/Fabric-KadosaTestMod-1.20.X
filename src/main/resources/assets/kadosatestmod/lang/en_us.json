@@ -1,4 +1,6 @@
 {
   "item.kadosatestmod.ruby": "Ruby",
-  "item.kadosatestmod.raw_ruby": "Raw Ruby"
+  "item.kadosatestmod.raw_ruby": "Raw Ruby",
+
+  "itemgroup.ruby": "Ruby Group"
 }
