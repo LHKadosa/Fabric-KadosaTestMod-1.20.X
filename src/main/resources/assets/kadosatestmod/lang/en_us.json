@@ -2,5 +2,7 @@
   "item.kadosatestmod.ruby": "Ruby",
   "item.kadosatestmod.raw_ruby": "Raw Ruby",
 
+  "block.kadosatestmod.ruby_block": "Block of Ruby",
+
   "itemgroup.ruby": "Ruby Group"
 }
