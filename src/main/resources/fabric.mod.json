@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "kadosatestmod",
+	"id": "testmod",
 	"version": "${version}",
 	"name": "Kadosa_Test_Mod",
 	"description": "This is a test mod for me to learn the basics.",
