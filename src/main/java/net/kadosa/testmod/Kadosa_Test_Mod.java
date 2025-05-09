@@ -2,6 +2,7 @@ package net.kadosa.testmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.kadosa.testmod.block.ModBlocks;
 import net.kadosa.testmod.item.ModItemGroups;
 import net.kadosa.testmod.item.ModItems;
@@ -17,5 +18,7 @@ public class Kadosa_Test_Mod implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 	}
 }
