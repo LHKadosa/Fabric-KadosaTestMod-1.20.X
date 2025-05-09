@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "kadosatestmod:block/raw_ruby_block"
+    "all": "testmod:block/ruby_block"
   }
 }

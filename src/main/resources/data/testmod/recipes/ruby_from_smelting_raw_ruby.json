@@ -3,11 +3,11 @@
   "category": "building",
   "ingredients": [
     {
-      "item": "kadosatestmod:ruby_block"
+      "item": "testmod:ruby_block"
     }
   ],
   "result": {
-    "item": "kadosatestmod:ruby",
+    "item": "testmod:ruby",
     "count": 9
   }
 }

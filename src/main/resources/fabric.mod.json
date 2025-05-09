@@ -26,7 +26,7 @@
 		]
 	},
 	"mixins": [
-		"kadosatestmod.mixins.json"
+		"testmod.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",

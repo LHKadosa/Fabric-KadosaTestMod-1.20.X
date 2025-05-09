@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "kadosatestmod:item/raw_ruby"
+    "layer0": "testmod:item/raw_ruby"
   }
 }

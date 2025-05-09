@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "kadosatestmod:raw_ruby_block"
+          "name": "testmod:raw_ruby_block"
         }
       ],
       "rolls": 1.0

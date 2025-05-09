@@ -5,7 +5,7 @@
   "experience": 0.7,
   "group": "ruby",
   "ingredient": {
-    "item": "kadosatestmod:raw_ruby"
+    "item": "testmod:raw_ruby"
   },
-  "result": "kadosatestmod:ruby"
+  "result": "testmod:ruby"
 }
