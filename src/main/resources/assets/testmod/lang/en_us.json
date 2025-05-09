@@ -17,5 +17,7 @@
 
   "block.testmod.sound_block": "Sound Block",
 
+  "tooltip.testmod.metal_detector.tooltip": "Finds valuables underground",
+
   "itemgroup.ruby": "Ruby Things"
 }
