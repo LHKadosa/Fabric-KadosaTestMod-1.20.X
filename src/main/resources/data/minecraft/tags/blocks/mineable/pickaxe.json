@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "kadosatestmod:ruby_block",
+    "kadosatestmod:raw_ruby_block",
+    "kadosatestmod:ruby_ore",
+    "kadosatestmod:deepslate_ruby_ore",
+    "kadosatestmod:nether_ruby_ore",
+    "kadosatestmod:end_stone_ruby_ore"
+  ]
+}
