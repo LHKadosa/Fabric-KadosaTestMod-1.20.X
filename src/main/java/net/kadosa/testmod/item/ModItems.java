@@ -2,6 +2,7 @@ package net.kadosa.testmod.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.kadosa.testmod.Kadosa_Test_Mod;
+import net.kadosa.testmod.block.ModBlocks;
 import net.kadosa.testmod.item.custom.MetalDetectorItem;
 import net.kadosa.testmod.item.custom.ModArmorItem;
 import net.minecraft.item.*;
@@ -41,6 +42,9 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item RUBY_BOOTS = registerItem("ruby_boots",
             new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    public static final Item TOMATO_SEEDS = registerItem("tomato_seeds",
+            new AliasedBlockItem(ModBlocks.TOMATO_CROP, new FabricItemSettings()));
 
     /* ///Outdated: Ruby has a separate ItemGroup
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
