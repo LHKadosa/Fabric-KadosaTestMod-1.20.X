@@ -12,13 +12,13 @@ import net.minecraft.util.Identifier;
 
 public class ModLootTableModifiers {
     private static final Identifier JUNGLE_TEMPLE_ID =
-            new Identifier("minecraft", "chest/jungle_temple");
+            new Identifier("minecraft", "chests/jungle_temple");
     private static final Identifier CREEPER_ID =
             new Identifier("minecraft", "entities/creeper");
 
     public static void modifyLootTables() {
         LootTableEvents.MODIFY.register((resourceManager, lootManager, identifier, builder, lootTableSource) -> {
-            if(JUNGLE_TEMPLE_ID.equals(identifier)) { //This maybe doesn't work for me
+            if(JUNGLE_TEMPLE_ID.equals(identifier)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(1f)) // Drops 100% of the time
