@@ -1,4 +1,4 @@
-// 1.20.1	2025-05-10T23:56:59.8234611	Kadosa_Test_Mod/Block Loot Tables
+// 1.20.1	2025-05-11T00:32:41.5716664	Kadosa_Test_Mod/Block Loot Tables
 a0c6854f53aff245aaa7f2d611f40b29fe34321c data\testmod\loot_tables\blocks\deepslate_ruby_ore.json
 c024803ce5ff3e16866f513a91c848a932c2208d data\testmod\loot_tables\blocks\end_stone_ruby_ore.json
 5d39da111009e7bbac4884a49f5134ca3c11f0f7 data\testmod\loot_tables\blocks\ruby_pressure_plate.json
@@ -10,6 +10,7 @@ a6cbbed71d38a613f22d53835cd12a3fde8b77b9 data\testmod\loot_tables\blocks\ruby_wa
 ea272c523f041f04521bd7be1b1fa24999087745 data\testmod\loot_tables\blocks\ruby_trapdoor.json
 e9e8b2860b7bc4ab12e850be6f7fd21c5bbb8d5a data\testmod\loot_tables\blocks\sound_block.json
 cea8fdee8f046ffa81226a53ad361fcb76156d66 data\testmod\loot_tables\blocks\ruby_fence_gate.json
+d1f6511e011a40996e0575c5168049071d5cff06 data\testmod\loot_tables\blocks\corn_crop.json
 28d4ba9f17c5c211594658c28212a411b0185c79 data\testmod\loot_tables\blocks\ruby_button.json
 032dd66e468cfb439a8ce863f36a881d3ce98c93 data\testmod\loot_tables\blocks\nether_ruby_ore.json
 0d34c073c4daf31ac0a1ed6fc01583692b23688b data\testmod\loot_tables\blocks\ruby_slab.json

@@ -22,6 +22,9 @@
 
   "item.testmod.tomato_seeds": "Tomato Seeds",
 
+  "item.testmod.corn": "Corn",
+  "item.testmod.corn_seeds": "Corn Seeds",
+
   "block.testmod.ruby_block": "Block of Ruby",
   "block.testmod.raw_ruby_block": "Block of Raw Ruby",
 
