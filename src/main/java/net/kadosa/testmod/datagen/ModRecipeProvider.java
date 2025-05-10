@@ -47,9 +47,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
                 .offerTo(consumer, new Identifier(getRecipeName(ModBlocks.RUBY_STAIRS)));
 
-        createTrapdoorRecipe(ModBlocks.RUBY_TRAPDOOR, Ingredient.ofItems(ModItems.RUBY))
-                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
-                .offerTo(consumer, new Identifier(getRecipeName(ModBlocks.RUBY_TRAPDOOR)));
+        offer2x2CompactingRecipe(consumer, RecipeCategory.REDSTONE, ModBlocks.RUBY_TRAPDOOR, ModItems.RUBY);
 
         offerWallRecipe(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RUBY_WALL, ModItems.RUBY);
 
