@@ -45,6 +45,8 @@
   "block.testmod.ruby_door": "Ruby Door",
   "block.testmod.ruby_trapdoor": "Ruby Trapdoor",
 
+  "block.testmod.dahlia": "Dahlia",
+
   "tooltip.testmod.metal_detector.tooltip": "Finds valuables underground",
 
   "itemgroup.ruby": "Ruby Things"
